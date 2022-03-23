@@ -8,7 +8,7 @@ int main()
    gets(a);
 
    printf("Enter a string\n");
-   gets(b);
+   gets(b);//
 
    if (strcmp(a,b) == 0)
       printf("The strings are equal.\n");
